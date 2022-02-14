@@ -14,22 +14,22 @@ do
         echo ${osInfo[$f]} detected..
         echo Installing dependencies...
         if ((${osInfo[$f]} == apt-get)); then
-            sudo apt-get install wget curl php unzip lolcat figlet npm nodejs jq xsel -y
-            npm install -g localtunnel
+            sudo apt-get install wget curl php unzip lolcat figlet nodejs jq xsel -y
+            
         fi
         if ((${osInfo[$f]} == pacman)); then
-            sudo pacman -S wget curl php unzip figlet npm nodejs jq xsel --noconfirm
+            sudo pacman -S wget curl php unzip figlet nodejs jq xsel --noconfirm
             sudo pacman -S gem
             sudo gem install lolcat
-            npm install -g localtunnel
+            
         fi
         if ((${osInfo[$f]} == yum)); then
-            sudo yum install wget curl php unzip lolcat figlet npm nodejs jq xsel
-            npm install -g localtunnel
+            sudo yum install wget curl php unzip lolcat figlet nodejs jq xsel
+            
         fi
         if ((${osInfo[$f]} == emerge )); then
-            sudo emerge -u wget curl php unzip lolcat figlet npm nodejs jq xsel
-            npm install -g localtunnel
+            sudo emerge -u wget curl php unzip lolcat figlet nodejs jq xsel
+         
         fi
 
     fi
