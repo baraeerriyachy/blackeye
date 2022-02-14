@@ -15,7 +15,7 @@ git clone https://github.com/baraeerriyachy/blackeye.git
 cd blackeye-im
 chmod +x ./tmxsp.sh
 ```
-#Usage:
+# Usage:
 ```
 sudo ./blackeye.sh
 ```
