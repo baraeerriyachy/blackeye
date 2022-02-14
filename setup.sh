@@ -39,4 +39,4 @@ done
 echo Installation Completed
 echo Blackeye will start automtically.
 echo if it does not start, type ./blackeye.sh manually. | lolcat
-sleep 5; figlet Blackeye-im && ./blackeye.sh
+sleep 5; figlet BlackEye && ./blackeye.sh
