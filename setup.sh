@@ -18,9 +18,7 @@ do
             
         fi
         if ((${osInfo[$f]} == pacman)); then
-            sudo pacman -S wget curl php unzip figlet nodejs jq xsel --noconfirm
-            sudo pacman -S gem
-            sudo gem install lolcat
+            sudo pacman -S wget curl php unzip figlet nodejs jq xsel lolcat --noconfirm
             
         fi
         if ((${osInfo[$f]} == yum)); then
