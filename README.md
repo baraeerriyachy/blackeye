@@ -24,5 +24,5 @@ chmod +x ./tmxsp.sh
 
 # Usage:
 ```
-sudo ./blackeye.sh
+./blackeye.sh
 ```
