@@ -424,7 +424,7 @@ rm -rf sites/$server/usernames.txt
 fi
 
 default_ip=$(hostname -i)
-printf "\e[1;92m[\e[0m*\e[1;92m] Put your local IP (Default %s): " $default_ip
+printf "\n\e[1;92m[\e[0m*\e[1;92m] Put your local IP (Default %s): " $default_ip
 read ip
 ip="${ip:-${default_ip}}"
 printf "\e[1;92m[\e[0m*\e[1;92m] Starting php server...\n"
