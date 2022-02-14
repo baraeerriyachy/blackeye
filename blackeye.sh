@@ -339,7 +339,7 @@ getcredentials
 start() {
 printf "\n"
 printf "[01] Ngrok\n"
-printf "[02] Localhost"
+printf "[02] Localhost\n"
 echo ""
 read -p $'\n\e[1;92m\e[0m\e[1;77m\e[0m\e[1;92m ┌─[ Choose the tunneling method:]─[~]
  └──╼ ~ ' host
