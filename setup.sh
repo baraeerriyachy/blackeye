@@ -18,7 +18,7 @@ do
             
         fi
         if ((${osInfo[$f]} == pacman)); then
-            sudo pacman -S wget curl php unzip figlet nodejs jq xsel lolcat --noconfirm
+            sudo pacman -S wget curl php unzip lolcat figlet nodejs jq xsel --noconfirm
             
         fi
         if ((${osInfo[$f]} == yum)); then
