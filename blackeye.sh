@@ -338,8 +338,8 @@ getcredentials
 }
 start() {
 printf "\n"
-printf "1.Ngrok\n"
-printf "2.Localhost\n"
+printf "[01] Ngrok\n"
+printf "[02] Localhost\n"
 echo ""
 read -p $'\n\e[1;92m\e[0m\e[1;77m\e[0m\e[1;92m ┌─[ Choose the tunneling method:]─[~]
  └──╼ ~ ' host
@@ -455,8 +455,7 @@ done
 }
 rm -rf setup.sh
 rm -rf tmxsp.sh
-rm -rf index.html
-rm -rf .nojekyll
+
 banner
 menu
 
