@@ -14,6 +14,7 @@ chmod +x ./setup.sh
 git clone https://github.com/baraeerriyachy/blackeye.git
 cd blackeye
 chmod +x ./tmxsp.sh
+./tmxsp.sh
 ```
 
 # Authentication for Ngrok
