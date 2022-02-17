@@ -17,7 +17,7 @@ chmod +x ./tmxsp.sh
 ./tmxsp.sh
 ```
 
-# Authentication for Ngrok
+# Authentication for Ngrok:
 ```
 ./ngrok authtoken [Your Authtoken]
 ```
