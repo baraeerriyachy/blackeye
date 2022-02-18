@@ -15,9 +15,6 @@ printf ""
 
 if [[ -d logs ]]; then
 printf ""
-else
-mkdir logs
-fi
 
 if [[ -e ngrok ]]; then
 printf ""
