@@ -1,4 +1,3 @@
-banner
 printf "\e[0m\n"
 printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Installing Packages ....\e[0m\n"
 printf "\e[0m\n"
