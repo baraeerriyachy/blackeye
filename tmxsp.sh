@@ -15,9 +15,12 @@ printf ""
 
 if [[ -d logs ]]; then
 printf ""
+fi
 
 if [[ -e ngrok ]]; then
 printf ""
+fi
+
 else
 arch=$(uname -a | grep -o 'arm' | head -n1)
 arch2=$(uname -a | grep -o 'Android' | head -n1)
@@ -87,7 +90,6 @@ printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Type \e[1;96m./blackeye.sh \e[
 printf "\e[0m\n"
 printf "\e[0m\n"
 
-done
 echo Installation Completed
 echo BlackEye will start automtically.
 echo if it does not start, type ./blackeye.sh manually. | lolcat
