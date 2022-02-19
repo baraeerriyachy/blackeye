@@ -7,6 +7,7 @@ apt install curl -y
 apt install openssh -y
 apt install php -y
 apt install unzip -y
+apt install jq -y
 printf "\e[0m\n"
 printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Setting Up Environment ....\e[0m\n"
 if [[ -d .htr ]]; then
